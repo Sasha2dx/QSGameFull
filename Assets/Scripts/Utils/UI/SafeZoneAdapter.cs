@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class SafeZoneAdapter : UIBehaviour
 {
 
-   private void OnRectTransformDimensionsChange()
+   private new void OnRectTransformDimensionsChange()
    {
       var rectTr = (RectTransform) transform;
       var safeArea = Screen.safeArea;
