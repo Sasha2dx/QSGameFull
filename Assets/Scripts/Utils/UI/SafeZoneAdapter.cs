@@ -1,13 +1,12 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(RectTransform))]
 [ExecuteAlways]
-public class SafeZoneAdapter : UIBehaviour
+public class SafeZoneAdapter : MonoBehaviour
 {
 
-   private void OnRectTransformDimensionsChange()
+   private void Update()
    {
       var rectTr = (RectTransform) transform;
       var safeArea = Screen.safeArea;
