@@ -8,6 +8,6 @@
 
 - WASD or swipes in bottom half of the screen.
 
-### Download builded game:
+### Download built game:
 
 - [Android](https://dev.holy-games.space/qst_0.7(1).apk).
