@@ -10,4 +10,4 @@
 
 ### Download built game:
 
-- [Android](https://dev.holy-games.space/qst_0.7(1).apk).
+- [Android](https://github.com/Sasha2dx/QSGameFull/releases/download/0.7/qst_0.7.1.apk).
