@@ -5,26 +5,27 @@ using UnityEngine;
 public class UIController : MonoBehaviour
 {
     
-    [SerializeField] private GameObject restartScreen;
-    [SerializeField] private GameObject startScreen;
-    [SerializeField] private GameObject darkScreenOverlay;
+    [SerializeField] private Animator restartScreen;
+    [SerializeField] private Animator startScreen;
+    [SerializeField] private Animator darkScreenOverlay;
+    private static readonly int Show = Animator.StringToHash("show");
 
     public void ShowStartScreen()
     {
-        startScreen.SetActive(true);
-        darkScreenOverlay.SetActive(true);
+        startScreen.SetBool(Show,true);
+        darkScreenOverlay.SetBool(Show,true);
     }
     
     public void ShowRestartScreen()
     {
-        restartScreen.SetActive(true);
-        darkScreenOverlay.SetActive(true);
+        restartScreen.SetBool(Show,true);
+        darkScreenOverlay.SetBool(Show,true);
     }
     
     public void HideUI()
     {
-        startScreen.SetActive(false);
-        restartScreen.SetActive(false);
-        darkScreenOverlay.SetActive(false);
+        startScreen.SetBool(Show,false);
+        restartScreen.SetBool(Show,false);
+        darkScreenOverlay.SetBool(Show,false);
     }
 }

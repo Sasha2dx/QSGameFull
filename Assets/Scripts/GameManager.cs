@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         _ui = GetComponent<UIController>();
+        _ui.ShowStartScreen();
         timer.enabled = false;
         Time.timeScale = 0;
         
