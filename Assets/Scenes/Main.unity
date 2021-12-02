@@ -167,9 +167,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41765659}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!95 &41765662
 Animator:
@@ -274,9 +274,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195309532}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!95 &195309537
 Animator:
@@ -1660,9 +1660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b44a8467706d1a445957554dec8a664d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  restartScreen: {fileID: 1491742013}
-  startScreen: {fileID: 41765659}
-  darkScreenOverlay: {fileID: 195309532}
+  restartScreen: {fileID: 1491742016}
+  startScreen: {fileID: 41765662}
+  darkScreenOverlay: {fileID: 195309537}
 --- !u!1 &1975739607
 GameObject:
   m_ObjectHideFlags: 0
